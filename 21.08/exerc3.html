@@ -1,0 +1,8 @@
+<script>
+    const preco = Number(prompt("preco"))
+    const desconto = 0.15
+    const avista = preco - (preco * desconto)
+    const parcelas = 3 
+    const precoParcelado = preco / parcelas 
+    alert (`Preço ${preco.toFixed(2)} \nAvista ${avista.toFixed(2)} \n ou 3x de ${precoParcelado.toFixed(2)} `)
+</script>
